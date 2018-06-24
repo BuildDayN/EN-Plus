@@ -2,7 +2,7 @@ $(function () {
 
 
     //1.ミルクココアインスタンスを作成
-    var milkcocoa = new MilkCocoa("app_id.mlkcca.com", 'BCCBMCLADKJEDEOP', 'IiEilAPTODgMeJkXJDSRSCRjdTRCUGEYUOLfCEUK');
+    var milkcocoa = new MilkCocoa("app_id.mlkcca.com");
 
 
     var milkcocoa = MilkCocoa.connectWithApiKey('unijisd7eld.mlkcca.com', 'BCCBMCLADKJEDEOP', 'IiEilAPTODgMeJkXJDSRSCRjdTRCUGEYUOLfCEUK');
