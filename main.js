@@ -51,7 +51,7 @@ $(function () {
     }
 
     getData(function () {
-        $("#messages").append('<div style="color: #DB6220; margin-top: 30px; text-align: center;">全データを読み込みました</div>');
+        $("#messages").append('<div style="color: skyblue; margin-top: 30px; text-align: center;">全データを読み込みました</div>');
     });
 
     //4."message"データストアのプッシュイベントを監視
