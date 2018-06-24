@@ -5,7 +5,7 @@ $(function () {
     var milkcocoa = new MilkCocoa("app_id.mlkcca.com");
 
 
-    var milkcocoa = MilkCocoa.connectWithApiKey('unijisd7eld.mlkcca.com', 'BCCBMCLADKJEDEOP', 'IiEilAPTODgMeJkXJDSRSCRjdTRCUGEYUOLfCEUK');
+    //  var milkcocoa = MilkCocoa.connectWithApiKey('unijisd7eld.mlkcca.com', 'BCCBMCLADKJEDEOP', 'IiEilAPTODgMeJkXJDSRSCRjdTRCUGEYUOLfCEUK');
 
     //2."message"データストアを作成
     var ds = milkcocoa.dataStore("message");
