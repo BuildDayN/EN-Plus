@@ -18,6 +18,7 @@ const app_secret = '{{ACCOUNT_KIT_APP_SECRET}}';
 const me_endpoint_base_url = 'https://graph.accountkit.com/{{ACCOUNT_KIT_API_VERSION}}/me';
 const token_exchange_base_url = 'https://graph.accountkit.com/{{ACCOUNT_KIT_API_VERSION}}/access_token'; 
 
+app.listen(process.env.PORT);
 
 function loadLogin() {
     return fs.readFileSync('dist/login.html').toString();
@@ -33,8 +34,8 @@ function loadLogin() {
     var html = Mustache.to_html(loadLogin(), view);
     response.send(html);
   });
-      
-
+    
+  
 function loadLoginSuccess() {
     return fs.readFileSync('dist/login_success.html').toString();
   }
